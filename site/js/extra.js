@@ -90,28 +90,8 @@
     if (!dialog.open) dialog.showModal();
   }
   function projects() { return K.list('projects'); }
+  K.openProject = projectDialog;
 
-  R['project-details'] = function (h) {
-    each(h, projects(), function (p) {
-      var card = el('article', 'card reveal'); card.id = p.slug;
-      var fig = el('figure', 'card__media'); fig.appendChild(img(p.image, L(p.imageAlt) || L(p.title), 800, 600)); card.appendChild(fig);
-      var body = el('div', 'card__body');
-      body.appendChild(el('h3', '', L(p.title)));
-      body.appendChild(el('p', '', L(p.summary)));
-      body.appendChild(chips(p.techniques));
-      body.appendChild(button('btn btn--ghost', t('proj.open'), function () { projectDialog(p); }));
-      card.appendChild(body); return card;
-    });
-  };
-  R.spotlight = function (h) {
-    each(h, projects().filter(function (p) { return p.featured; }), function (p) {
-      var row = el('article', 'spot reveal');
-      row.appendChild(figure(p.image, L(p.imageAlt), '', 'shot spot__media'));
-      var d = el('div'); d.appendChild(el('h3', '', L(p.title))); d.appendChild(el('p', '', L(p.summary))); d.appendChild(chips(p.techniques));
-      d.appendChild(button('btn btn--ghost', t('proj.open'), function () { projectDialog(p); }));
-      row.appendChild(d); return row;
-    });
-  };
   var dealt = false;
   R.deck = function (h) {
     K.clear(h);
@@ -134,20 +114,6 @@
     }
     sync(); h.appendChild(ctl); h.appendChild(table);
     K.finishList(h, all.length);
-  };
-  R.compare = function (h) {
-    K.clear(h);
-    var c = C.compare;
-    if (!c || !c.before || !c.after) { K.finishList(h, 0); return; }
-    var box = el('div', 'compare'); box.style.setProperty('--pos', '50%');
-    box.appendChild(img(c.after, t('cmp.after'), 800, 600));
-    var top = img(c.before, t('cmp.before'), 800, 600); top.className = 'compare__top'; box.appendChild(top);
-    box.appendChild(el('span', 'compare__line'));
-    var r = el('input'); r.type = 'range'; r.min = 0; r.max = 100; r.value = 50; r.setAttribute('aria-label', t('cmp.label'));
-    r.addEventListener('input', function () { box.style.setProperty('--pos', r.value + '%'); });
-    box.appendChild(r); h.appendChild(box);
-    h.appendChild(el('p', 'muted', t('cmp.help')));
-    K.finishList(h, 1);
   };
   R['code-projects'] = function (h) {
     each(h, arr(C.codeProjects), function (g) {

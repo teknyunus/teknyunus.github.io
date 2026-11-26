@@ -6,35 +6,40 @@ window.SITE_CONTENT = {
       "en": "Yunus Tekin"
     },
     "role": {
-      "tr": "Oyun geliştirici · Tasarımcı",
-      "en": "Game developer · Designer"
+      "tr": "Tasarımcı ve oyun geliştirici adayı",
+      "en": "Designer and aspiring game developer"
     },
     "tagline": {
-      "tr": "Oyun fikirlerini prototipe, pikselleri hikâyeye, tekrar eden işleri otomasyona çeviriyorum.",
-      "en": "I turn game ideas into prototypes, pixels into stories and repetitive chores into automation."
+      "tr": "Antalya’da Bilgisayar Programcılığı okuyorum. Photoshop’ta katman katman dünyalar kuruyor, kodla onları hareket ettiriyorum.",
+      "en": "I study Computer Programming in Antalya. I build worlds layer by layer in Photoshop and set them in motion with code."
     },
     "department": {
-      "tr": "Bilişim",
-      "en": "Computing"
+      "tr": "Bilgisayar Programcılığı",
+      "en": "Computer Programming"
     },
     "city": {
       "tr": "Antalya",
       "en": "Antalya"
     },
-    "avatar": "img/portrait.svg",
+    "avatar": "img/photos/vesikalik.webp",
     "avatarAlt": {
-      "tr": "Yunus Tekin için YT monogramı",
-      "en": "YT monogram for Yunus Tekin"
-    }
+      "tr": "Yunus Tekin’in vesikalık fotoğrafı",
+      "en": "Portrait photo of Yunus Tekin"
+    },
+    "year": {
+      "tr": "1. Sınıf",
+      "en": "1st year"
+    },
+    "studentNo": "20261129016"
   },
   "bio": [
     {
-      "tr": "Merhaba, ben Yunus. Oyun geliştirme, web tasarımı ve görsel tasarımın kesiştiği yerde çalışmayı seviyorum. Bir fikri önce kâğıtta karalıyor, sonra oynanabilir ya da tıklanabilir hâle getiriyorum.",
-      "en": "Hi, I am Yunus. I enjoy working where game development, web design and visual design meet. I sketch an idea first, then make it playable or clickable."
+      "tr": "Merhaba, ben Yunus. Antalya’da Bilgisayar Programcılığı 1. sınıf öğrencisiyim. Bir piksel yerine oturmadan içim rahat etmiyor; boş bir tuval ile boş bir kod dosyası bana aynı heyecanı veriyor.",
+      "en": "Hi, I am Yunus, a first-year Computer Programming student in Antalya. I cannot rest until a pixel sits right; a blank canvas and a blank code file excite me equally."
     },
     {
-      "tr": "Bu dönem Grafik Animasyon 1 dersinde katmanlar, maskeler, akıllı nesneler ve web arayüzü düzeni üzerine altı çalışma hazırladım. Boş zamanlarımda gün batımı fotoğraflıyor, futbol izliyor ve küçük otomasyon betikleri yazıyorum.",
-      "en": "This term in Motion Graphics 1, I made six projects on layers, masks, smart objects and web layout. In my free time I photograph sunsets, watch football and write small automation scripts."
+      "tr": "Bu dönem Grafik Animasyon 1 dersinde seçici renkten akıllı nesnelere, görüntü yığınından web arayüzüne altı Photoshop çalışması hazırladım. Ders dışında oyun fikirleri çiziyor, küçük otomasyon betikleri yazıyor ve Antalya’nın gün batımlarını fotoğraflıyorum.",
+      "en": "This term in Motion Graphics 1 I made six Photoshop projects, from selective colour and smart objects to image stacks and web interface design. Outside class I sketch game ideas, write small automation scripts and photograph Antalya sunsets."
     }
   ],
   "contact": {
@@ -90,7 +95,7 @@ window.SITE_CONTENT = {
         "tr": "Görsel düzenleme (katman, maske)",
         "en": "Image editing (layers, masks)"
       },
-      "percent": 80,
+      "percent": 92,
       "type": "bar"
     },
     {
@@ -99,7 +104,7 @@ window.SITE_CONTENT = {
         "tr": "HTML",
         "en": "HTML"
       },
-      "percent": 78,
+      "percent": 76,
       "type": "bar"
     },
     {
@@ -117,7 +122,7 @@ window.SITE_CONTENT = {
         "tr": "Web arayüz tasarımı",
         "en": "Web interface design"
       },
-      "percent": 70,
+      "percent": 80,
       "type": "bar"
     },
     {
@@ -126,7 +131,7 @@ window.SITE_CONTENT = {
         "tr": "JavaScript",
         "en": "JavaScript"
       },
-      "percent": 55,
+      "percent": 52,
       "type": "bar"
     },
     {
@@ -135,7 +140,7 @@ window.SITE_CONTENT = {
         "tr": "Oyun geliştirme (C#, Unity)",
         "en": "Game development (C#, Unity)"
       },
-      "percent": 50,
+      "percent": 46,
       "type": "bar"
     },
     {
@@ -225,8 +230,8 @@ window.SITE_CONTENT = {
       },
       "time": "13:00 – 15:00",
       "course": {
-        "tr": "Web Tasarımı",
-        "en": "Web Design"
+        "tr": "Web Tasarımının Temelleri",
+        "en": "Web Design Basics"
       },
       "room": "B-204"
     },
@@ -236,7 +241,7 @@ window.SITE_CONTENT = {
         "tr": "Salı",
         "en": "Tuesday"
       },
-      "time": "10:00 – 12:00",
+      "time": "10:00 – 13:00",
       "course": {
         "tr": "Programlama Temelleri",
         "en": "Programming Fundamentals"
@@ -251,8 +256,8 @@ window.SITE_CONTENT = {
       },
       "time": "09:00 – 11:00",
       "course": {
-        "tr": "Veritabanı",
-        "en": "Databases"
+        "tr": "Matematik",
+        "en": "Mathematics"
       },
       "room": "A-110"
     },
@@ -264,8 +269,8 @@ window.SITE_CONTENT = {
       },
       "time": "13:00 – 16:00",
       "course": {
-        "tr": "Oyun Programlamaya Giriş",
-        "en": "Intro to Game Programming"
+        "tr": "Bilgi ve İletişim Teknolojileri",
+        "en": "Information Technologies"
       },
       "room": "Lab 3"
     },
@@ -277,8 +282,8 @@ window.SITE_CONTENT = {
       },
       "time": "10:00 – 12:00",
       "course": {
-        "tr": "Teknik İngilizce",
-        "en": "Technical English"
+        "tr": "Yabancı Dil (İngilizce)",
+        "en": "Foreign Language (English)"
       },
       "room": "C-12"
     }
@@ -287,77 +292,77 @@ window.SITE_CONTENT = {
     {
       "id": "tl-0",
       "period": {
-        "tr": "2019 – 2023",
-        "en": "2019 – 2023"
+        "tr": "2022 – 2026",
+        "en": "2022 – 2026"
       },
       "title": {
         "tr": "Lise",
         "en": "High school"
       },
       "place": {
-        "tr": "Lise eğitimi",
-        "en": "Secondary education"
+        "tr": "Bilişim merakının başlangıcı",
+        "en": "Where the interest began"
       },
       "text": {
-        "tr": "Bilgisayara ve oyunlara olan merakım derslerin dışında da büyüdü.",
-        "en": "My curiosity about computers and games grew beyond class."
+        "tr": "Bilgisayarlara ve oyunlara ilgim burada ciddileşti; ilk afişlerimi tasarladım.",
+        "en": "My interest in computers and games got serious; I designed my first posters."
       }
     },
     {
       "id": "tl-1",
       "period": {
-        "tr": "2024 – Günümüz",
-        "en": "2024 – Present"
+        "tr": "2026 – Günümüz",
+        "en": "2026 – Present"
       },
       "title": {
-        "tr": "Üniversite",
-        "en": "University"
+        "tr": "Üniversite: Bilgisayar Programcılığı",
+        "en": "University: Computer Programming"
       },
       "place": {
-        "tr": "Bilişim alanında eğitim",
-        "en": "Studies in computing"
+        "tr": "Antalya · 1. Sınıf",
+        "en": "Antalya · 1st year"
       },
       "text": {
-        "tr": "Web, tasarım ve yazılım dersleri; Grafik Animasyon 1 çalışmaları.",
-        "en": "Web, design and software courses; Motion Graphics 1 coursework."
+        "tr": "Programlama temelleri, web tasarımı ve Grafik Animasyon 1.",
+        "en": "Programming fundamentals, web design and Motion Graphics 1."
       }
     },
     {
       "id": "tl-2",
       "period": {
-        "tr": "2024",
-        "en": "2024"
+        "tr": "2026",
+        "en": "2026"
       },
       "title": {
         "tr": "İlk projeler",
         "en": "First projects"
       },
       "place": {
-        "tr": "Kişisel çalışmalar",
-        "en": "Personal work"
+        "tr": "Grafik Animasyon 1",
+        "en": "Motion Graphics 1"
       },
       "text": {
-        "tr": "İlk web sayfalarım ve küçük oyun denemelerim.",
-        "en": "My first web pages and small game experiments."
+        "tr": "Altı Photoshop çalışması ve ilk kişisel web sitem.",
+        "en": "Six Photoshop projects and my first personal website."
       }
     },
     {
       "id": "tl-3",
       "period": {
-        "tr": "2025",
-        "en": "2025"
+        "tr": "2025 – 2026",
+        "en": "2025 – 2026"
       },
       "title": {
-        "tr": "İlk iş deneyimi",
-        "en": "First work experience"
+        "tr": "İş deneyimi",
+        "en": "Work experience"
       },
       "place": {
-        "tr": "Serbest, küçük ölçekli işler",
-        "en": "Freelance, small jobs"
+        "tr": "Serbest, küçük tasarım işleri",
+        "en": "Freelance, small design jobs"
       },
       "text": {
-        "tr": "Afiş, sosyal medya görseli ve basit tanıtım sayfası denemeleri.",
-        "en": "Posters, social media graphics and simple landing pages."
+        "tr": "Sosyal medya görselleri, etkinlik afişleri ve basit logo denemeleri.",
+        "en": "Social media graphics, event posters and simple logo studies."
       }
     },
     {
@@ -371,12 +376,12 @@ window.SITE_CONTENT = {
         "en": "Next step"
       },
       "place": {
-        "tr": "Staj ve ekip projeleri",
-        "en": "Internship and team projects"
+        "tr": "Staj ve oynanabilir demo",
+        "en": "Internship and playable demo"
       },
       "text": {
-        "tr": "Oyun ya da web ekibinde staj yapmak ve oynanabilir bir demo yayınlamak.",
-        "en": "Interning in a game or web team and releasing a playable demo."
+        "tr": "Bir tasarım ya da oyun ekibinde staj yapmak ve ilk demomu yayınlamak.",
+        "en": "Interning with a design or game team and releasing my first demo."
       }
     }
   ],
@@ -477,8 +482,8 @@ window.SITE_CONTENT = {
         "en": "What can I contact you about?"
       },
       "a": {
-        "tr": "Oyun geliştirme, web tasarım, otomasyon ve grafik animasyon konularında yazabilirsin.",
-        "en": "Game development, web design, automation and motion graphics."
+        "tr": "Photoshop tasarımları, web arayüzü, oyun fikirleri ve küçük otomasyon işleri hakkında yazabilirsin.",
+        "en": "You can write about Photoshop design, web interfaces, game ideas and small automation jobs."
       }
     },
     {
@@ -559,7 +564,17 @@ window.SITE_CONTENT = {
       "links": {},
       "featured": true,
       "order": 1,
-      "visible": true
+      "visible": true,
+      "color": "#ffc62e",
+      "short": {
+        "tr": "History Brush",
+        "en": "History Brush"
+      },
+      "hero": 4,
+      "compare": {
+        "before": "img/work/p1-before.webp",
+        "after": "img/work/p1-after.webp"
+      }
     },
     {
       "id": "proj-2",
@@ -619,14 +634,25 @@ window.SITE_CONTENT = {
           "label": {
             "tr": "Katman yapısı",
             "en": "Layer structure"
-          }
+          },
+          "kind": "panel"
         }
       ],
       "status": "done",
       "links": {},
       "featured": true,
       "order": 2,
-      "visible": true
+      "visible": true,
+      "color": "#e0b25a",
+      "short": {
+        "tr": "Ürün Tanıtımı",
+        "en": "Product Ad"
+      },
+      "hero": 3,
+      "compare": {
+        "before": "img/work/p2-before.webp",
+        "after": "img/work/p2-after.webp"
+      }
     },
     {
       "id": "proj-3",
@@ -682,14 +708,25 @@ window.SITE_CONTENT = {
           "label": {
             "tr": "Katman yapısı",
             "en": "Layer structure"
-          }
+          },
+          "kind": "panel"
         }
       ],
       "status": "done",
       "links": {},
       "featured": false,
       "order": 3,
-      "visible": true
+      "visible": true,
+      "color": "#ff7a4d",
+      "short": {
+        "tr": "Renklendirme",
+        "en": "Colouring"
+      },
+      "hero": 1,
+      "compare": {
+        "before": "img/work/p3-before.webp",
+        "after": "img/work/p3-after.webp"
+      }
     },
     {
       "id": "proj-4",
@@ -759,21 +796,33 @@ window.SITE_CONTENT = {
           "label": {
             "tr": "Katman yapısı",
             "en": "Layer structure"
-          }
+          },
+          "kind": "panel"
         },
         {
           "image": "img/work/p4-so-layers.webp",
           "label": {
             "tr": "Nesne içi katmanlar",
             "en": "Layers inside the object"
-          }
+          },
+          "kind": "panel"
         }
       ],
       "status": "done",
       "links": {},
       "featured": true,
       "order": 4,
-      "visible": true
+      "visible": true,
+      "color": "#8d63ff",
+      "short": {
+        "tr": "Gezegen Atlası",
+        "en": "Planet Atlas"
+      },
+      "hero": 2,
+      "compare": {
+        "before": "img/work/p4-before.webp",
+        "after": "img/work/p4-after.webp"
+      }
     },
     {
       "id": "proj-5",
@@ -857,14 +906,24 @@ window.SITE_CONTENT = {
           "label": {
             "tr": "Katman yapısı",
             "en": "Layer structure"
-          }
+          },
+          "kind": "panel"
         }
       ],
       "status": "done",
       "links": {},
       "featured": false,
       "order": 5,
-      "visible": true
+      "visible": true,
+      "color": "#2fe3a8",
+      "short": {
+        "tr": "Image Stack",
+        "en": "Image Stack"
+      },
+      "compare": {
+        "before": "img/work/p5-before.webp",
+        "after": "img/work/p5-after.webp"
+      }
     },
     {
       "id": "proj-6",
@@ -934,14 +993,16 @@ window.SITE_CONTENT = {
           "label": {
             "tr": "Katman yapısı",
             "en": "Layer structure"
-          }
+          },
+          "kind": "panel"
         },
         {
           "image": "img/work/p6-comps.webp",
           "label": {
             "tr": "Katman kompozisyonları",
             "en": "Layer comps"
-          }
+          },
+          "kind": "panel"
         }
       ],
       "status": "done",
@@ -951,7 +1012,12 @@ window.SITE_CONTENT = {
       },
       "featured": false,
       "order": 6,
-      "visible": true
+      "visible": true,
+      "color": "#ff4562",
+      "short": {
+        "tr": "Web Arayüzü",
+        "en": "Web Interface"
+      }
     }
   ],
   "posts": [
@@ -1076,7 +1142,7 @@ window.SITE_CONTENT = {
         {
           "type": "code",
           "language": "css",
-          "code": ":root { --bg: #0e1522; --fg: #e8eef7; }\n:root[data-theme=\"light\"] { --bg: #f3f6fa; --fg: #152033; }\nbody { background: var(--bg); color: var(--fg); }"
+          "code": ":root { --bg: #120a26; --fg: #f6f2ff; }\n:root[data-theme=\"light\"] { --bg: #f4f1ff; --fg: #1b1038; }\nbody { background: var(--bg); color: var(--fg); }"
         },
         {
           "type": "image",
@@ -1392,11 +1458,11 @@ window.SITE_CONTENT = {
   "settings": {
     "defaultLang": "tr",
     "defaultTheme": "system",
-    "fire": true,
-    "cursor": true,
+    "fire": false,
+    "cursor": false,
     "siteTitle": {
-      "tr": "Yunus Tekin | Oyun, Web ve Grafik Portfolyosu",
-      "en": "Yunus Tekin | Games, Web and Graphics Portfolio"
+      "tr": "Yunus Tekin | Photoshop, Web ve Oyun Portfolyosu",
+      "en": "Yunus Tekin | Photoshop, Web and Games Portfolio"
     },
     "siteDescription": {
       "tr": "Yunus Tekin’in kişisel sitesi: grafik çalışmaları, oyun fikirleri, blog yazıları, fotoğraflar ve iletişim.",
@@ -1405,8 +1471,8 @@ window.SITE_CONTENT = {
   },
   "why": [
     {
-      "tr": "Oyun oynarken beni en çok “bunu nasıl yaptılar?” sorusu heyecanlandırırdı. Bugün aynı merakla tasarlıyor ve kodluyorum: küçük bir fikrin ekranda hareket etmeye başladığı an, bütün uğraşa değiyor.",
-      "en": "What excited me most while playing games was the question “how did they make this?”. I design and code with the same curiosity today: the moment a small idea starts moving on screen makes all the effort worth it."
+      "tr": "Ekranda gördüğüm her güzel şeyin arkasında görünmeyen katmanlar var. Ben o katmanları açıp kendim kurmayı seviyorum: bir fikrin boş tuvalden çalışan bir işe dönüştüğü an için yapıyorum.",
+      "en": "Behind every good thing on a screen there are layers you do not see. I love opening them up and building my own, for the moment an idea goes from a blank canvas to something that works."
     }
   ],
   "works": [
@@ -1460,32 +1526,32 @@ window.SITE_CONTENT = {
       "id": "s-proj",
       "value": "6",
       "label": {
-        "tr": "ders çalışması",
-        "en": "course projects"
+        "tr": "Photoshop projesi",
+        "en": "Photoshop projects"
       }
     },
     {
-      "id": "s-post",
-      "value": "3",
+      "id": "s-layer",
+      "value": "60+",
       "label": {
-        "tr": "blog yazısı",
-        "en": "blog posts"
+        "tr": "isimlendirilmiş katman",
+        "en": "named layers"
       }
     },
     {
-      "id": "s-work",
-      "value": "4",
+      "id": "s-hour",
+      "value": "200+",
       "label": {
-        "tr": "çalışma alanı",
-        "en": "fields of work"
+        "tr": "saat ekran başında üretim",
+        "en": "hours of making things"
       }
     },
     {
-      "id": "s-lang",
-      "value": "2",
+      "id": "s-tea",
+      "value": "∞",
       "label": {
-        "tr": "site dili",
-        "en": "site languages"
+        "tr": "bardak çay",
+        "en": "glasses of tea"
       }
     }
   ],
@@ -1554,15 +1620,15 @@ window.SITE_CONTENT = {
     {
       "id": "dy-1",
       "text": {
-        "tr": "Fotoğraflarımın çoğunda gökyüzü başrolde; gün batımını kaçırmamaya çalışırım.",
-        "en": "The sky is the star of most of my photos; I try not to miss a sunset."
+        "tr": "Katmanlarıma isim vermeden dosyayı kapatmam; “Katman 1 kopyası 7” bana göre değil.",
+        "en": "I never close a file with unnamed layers; “Layer 1 copy 7” is not for me."
       }
     },
     {
       "id": "dy-2",
       "text": {
-        "tr": "Bu sitedeki kamp ateşi görsel dosyası değil: tarayıcıda kodla çiziliyor.",
-        "en": "The campfire on this site is not an image file: the browser draws it with code."
+        "tr": "Gezegen Atlası’ndaki renk değişimi için gezegenleri tek tek boyamadım: akıllı nesnenin içinde tek bir ayar yetti.",
+        "en": "I did not repaint the planets one by one in Planet Atlas: one adjustment inside the smart object was enough."
       }
     },
     {
@@ -1607,10 +1673,6 @@ window.SITE_CONTENT = {
       }
     }
   ],
-  "compare": {
-    "before": "img/work/p1-before.webp",
-    "after": "img/work/p1-after.webp"
-  },
   "codeProjects": [
     {
       "id": "cp-game",
@@ -1827,6 +1889,48 @@ window.SITE_CONTENT = {
         "tr": "960 ızgarayla web arayüzü taslağı hazırlamak",
         "en": "Wireframing a web interface on a 960 grid"
       }
+    }
+  ],
+  "ticker": [
+    {
+      "tr": "Photoshop",
+      "en": "Photoshop"
+    },
+    {
+      "tr": "Katman Maskesi",
+      "en": "Layer Masks"
+    },
+    {
+      "tr": "Smart Object",
+      "en": "Smart Object"
+    },
+    {
+      "tr": "Tipografi",
+      "en": "Typography"
+    },
+    {
+      "tr": "Image Stack",
+      "en": "Image Stack"
+    },
+    {
+      "tr": "Dijital Boyama",
+      "en": "Digital Painting"
+    },
+    {
+      "tr": "Web Arayüzü",
+      "en": "Web UI"
+    },
+    {
+      "tr": "HTML & CSS",
+      "en": "HTML & CSS"
+    },
+    {
+      "tr": "Unity",
+      "en": "Unity"
+    },
+    {
+      "tr": "Python",
+      "en": "Python"
     }
   ]
 };

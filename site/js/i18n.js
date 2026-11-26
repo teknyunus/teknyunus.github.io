@@ -454,6 +454,9 @@ Object.assign(window.I18N_DICT.en, {
 Object.assign(window.I18N_DICT.tr, { 'proj.ref': 'Örnek alınan site', 'about.skLead': 'Yüzdeler kendi değerlendirmemdir.', 'form.consent': 'Mesajımın yanıtlanması için iletişim bilgilerimin kullanılmasını kabul ediyorum.' });
 Object.assign(window.I18N_DICT.en, { 'proj.ref': 'Reference website', 'about.skLead': 'Percentages are my own self-assessment.' });
 
+Object.assign(window.I18N_DICT.tr, {"fact.no":"Öğrenci No","view.compare":"Önce / Sonra","view.scroll":"Sayfayı görmek için görselin içinde kaydır.","home.projH2":"Photoshop sergisinden","home.projLead":"Öne çıkan üç çalışma. Önce/sonra karşılaştırmaları ve katmanlarıyla tamamı sergide.","home.expo":"Sergiyi gez","home.cta1":"Sergiyi gez","projects.h1":"Photoshop <em>sergisi</em>","projects.lead":"Grafik Animasyon 1 için hazırladığım altı çalışma. Sürgüyü kaydır, katmanlara bak, her adımı incele.","about.h1":"Katman katman <em>Yunus</em>","foot.sub":"Photoshop, web, oyun ve otomasyon."});
+Object.assign(window.I18N_DICT.en, {"fact.no":"Student No","view.compare":"Before / After","view.scroll":"Scroll inside the image to see the whole page.","home.projH2":"From the Photoshop show","home.projLead":"Three highlights. See all six with before/after and layers in the exhibition.","home.expo":"Enter the exhibition","home.cta1":"Enter the exhibition","projects.h1":"Photoshop <em>exhibition</em>","projects.lead":"Six projects made for Motion Graphics 1. Drag the slider, open the layers and inspect every step.","about.h1":"Yunus, <em>layer by layer</em>","foot.sub":"Photoshop, web, games and automation."});
+
 /* ---- i18n mantigi ---- */
 (function () {
   'use strict';

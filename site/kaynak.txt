@@ -1,13 +1,13 @@
 KULLANILAN KAYNAKLAR / SOURCES
 
-Site şablonu: Ember portfolyo şablonu (MIT lisansı) - https://github.com/nazifw/portfolio-site
-Yazı tipleri: Fraunces ve Inter (SIL Open Font License) - https://fonts.google.com
+Başlangıç şablonu: Ember portfolyo şablonu (MIT lisansı) - https://github.com/nazifw/portfolio-site
+Yazı tipleri: Bricolage Grotesque ve Figtree (SIL Open Font License) - https://fonts.google.com
 Yerel yönetim aracı: Express (MIT) - https://expressjs.com ; Multer (MIT) - https://github.com/expressjs/multer
 Yapılandırılmış veri sözlüğü: https://schema.org
 Web arayüzü çalışmasında örnek alınan site: Rijksmuseum - https://www.rijksmuseum.nl/en (ders çalışması; marka ve görseller hak sahiplerine aittir)
 960 Grid System eskiz şablonu - https://960.gs
 Proje çalışmaları: Yunus Tekin, Grafik Animasyon 1. Çalışmalarda kullanılan ham görsellerin (taksi fotoğrafı, saat fotoğrafı, akbaba çizimi, gezegen görselleri) özgün kaynakları ve hakları sahiplerine aittir.
-Galeri fotoğrafları: Yunus Tekin
-Oyun ve prototip konsept çizimleri, YT monogramı: bu site için kodla üretildi.
+Galeri ve vesikalık fotoğrafları: Yunus Tekin
+Oyun ve prototip konsept çizimleri: bu site için kodla üretildi.
 Blog ekran görüntüleri: bu siteden ve Yunus Tekin'in ders çalışmalarından.
 Yapay zekâ desteği: Site kodunun düzenlenmesinde, site metinlerinde, blog yazılarında ve konsept çizimlerinde Claude (Anthropic) kullanıldı.

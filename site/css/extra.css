@@ -58,8 +58,6 @@ abbr[title] { text-decoration: underline dotted; cursor: help; }
 
 /* ---------- mobil ---------- */
 @media (max-width: 700px) {
-  /* ates icerigi kapatmasin: kucult ve soluklastir */
-  #campfire, html.journey #campfire { opacity: .28; }
   [data-render="photos"] .gallery, .gallery--home { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
   .chip--btn, .copy-btn, .lang-switch button { min-height: 40px; }
   .footer__list a { display: inline-block; padding-block: 6px; }

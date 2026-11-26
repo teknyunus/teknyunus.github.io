@@ -163,7 +163,6 @@
     clear(host);
     host.appendChild(doc.createTextNode(t('home.hi') + ' '));
     host.appendChild(el('em', '', name()));
-    host.appendChild(doc.createTextNode('.'));
   };
 
   R.eyebrow = function (host) {
@@ -184,7 +183,7 @@
     clear(host);
     var rows = [];
     if (host.hasAttribute('data-name')) rows.push(['fact.name', L(get('site.name'))]);
-    rows.push(['fact.dept', L(get('site.department'))], ['fact.year', L(get('site.year'))], ['fact.city', L(get('site.city'))]);
+    rows.push(['fact.dept', L(get('site.department'))], ['fact.year', L(get('site.year'))], ['fact.no', L(get('site.studentNo'))], ['fact.city', L(get('site.city'))]);
     var frag = doc.createDocumentFragment(), n = 0;
     rows.forEach(function (r) { if (!r[1]) return; frag.appendChild(el('dt', '', t(r[0]))); frag.appendChild(el('dd', '', r[1])); n++; });
     host.appendChild(frag);

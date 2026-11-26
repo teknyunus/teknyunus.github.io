@@ -12,7 +12,7 @@
   function apply(theme) {
     root.setAttribute('data-theme', theme);
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', theme === 'light' ? '#f3f6fa' : '#0e1522');
+    if (meta) meta.setAttribute('content', theme === 'light' ? '#f4f1ff' : '#120a26');
     var btn = document.querySelector('.theme-toggle');
     if (btn) btn.setAttribute('aria-pressed', theme === 'light' ? 'true' : 'false');
     document.dispatchEvent(new CustomEvent('themechange', { detail: { theme: theme } }));

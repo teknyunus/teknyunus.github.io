@@ -191,11 +191,11 @@ test('upload: signature check, SVG refused, listing, in-use delete warning', asy
     r = await c.req('DELETE', '/admin/api/uploads/' + up.name + '?force=1');
     assert.equal(r.status, 200);
     // traversal / non-upload targets
-    for (const n of ['..%2Fcontent.js', '..%2F..%2Fdata%2Fcontent.js', 'portrait.svg']) {
+    for (const n of ['..%2Fcontent.js', '..%2F..%2Fdata%2Fcontent.js', 'favicon.svg']) {
       r = await c.req('DELETE', '/admin/api/uploads/' + n);
       assert.ok([404].includes(r.status), n + ' -> ' + r.status);
     }
-    assert.ok(fs.existsSync(path.join(srv.paths.imgDir, 'portrait.svg')));
+    assert.ok(fs.existsSync(path.join(srv.paths.imgDir, 'favicon.svg')));
     assert.ok(fs.existsSync(srv.paths.contentFile));
   } finally { await srv.close(); }
 });
