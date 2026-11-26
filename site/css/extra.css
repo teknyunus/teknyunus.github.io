@@ -1,0 +1,71 @@
+/* extra.css - yeni bolumler */
+.cards-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+.cards-list > li, .cards-list > .panel { margin: 0; }
+
+.footer__cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding-bottom: 32px; margin-bottom: 32px; border-bottom: 1px solid var(--border); }
+.footer__cta p { margin: 0; font-family: var(--font-display); font-size: var(--fs-h3); }
+
+.tag { display: inline-block; margin-left: 8px; padding: 0 8px; border: 1px solid var(--border-strong); border-radius: var(--r-pill); font-size: var(--fs-label); }
+
+.spot { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 32px; align-items: center; margin-bottom: 48px; }
+.spot:nth-child(even) .spot__media { order: 2; }
+
+/* proje destesi: kapaliyken ust uste, dagitilinca izgara */
+.deck { list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+.deck li { margin: 0; }
+.deck__card { display: block; width: 100%; padding: 8px; background: var(--bg); color: var(--fg); border: 1px solid var(--border-strong); border-radius: var(--r-md); box-shadow: var(--sh-1); cursor: pointer; font: inherit; transition: transform 500ms var(--ease-out); }
+.deck__card img { width: 100%; border-radius: var(--r-sm); }
+.deck__card span { display: block; padding: 8px 4px 2px; }
+.deck:not(.is-dealt) { grid-template-columns: 1fr; max-width: 280px; margin-inline: auto; }
+.deck:not(.is-dealt) li { grid-area: 1 / 1; }
+.deck:not(.is-dealt) .deck__card { transform: rotate(calc((var(--n) - 2.5) * 3deg)); }
+
+/* once / sonra surgusu */
+.compare { position: relative; max-width: 800px; aspect-ratio: 4 / 3; overflow: hidden; border-radius: var(--r-lg); border: 1px solid var(--border); }
+.compare img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.compare__top { clip-path: inset(0 calc(100% - var(--pos)) 0 0); }
+.compare__line { position: absolute; top: 0; bottom: 0; left: var(--pos); width: 2px; margin-left: -1px; background: var(--accent); pointer-events: none; }
+.compare input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; }
+.compare:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+.modal { width: min(860px, calc(100vw - 32px)); max-height: calc(100svh - 32px); padding: 0; background: var(--bg); color: var(--fg); border: 1px solid var(--border-strong); border-radius: var(--r-lg); }
+.modal::backdrop { background: rgba(2, 6, 14, 0.75); }
+.modal__box { padding: clamp(18px, 4vw, 36px); }
+.modal__box > img { width: 100%; border-radius: var(--r-md); }
+.modal__close { float: right; margin: 0 0 12px 12px; }
+.modal__views { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+.modal__views figure { margin: 0 0 16px; }
+
+.toc__title { font-size: var(--fs-h3); }
+.post .panel { margin-block: 24px; }
+
+.game .gallery { margin-top: 24px; }
+.abbr-list dt { font-weight: 600; margin-top: 10px; }
+.abbr-list dd { margin: 0; color: var(--fg-muted); }
+abbr[title] { text-decoration: underline dotted; cursor: help; }
+
+.notfound { text-align: center; }
+.notfound p { margin-inline: auto; }
+
+@media (prefers-reduced-motion: reduce) { .deck__card { transition: none; } }
+
+/* gercek gorseller */
+.modal__views img { width: auto; max-width: 100%; max-height: 420px; margin-inline: auto; object-fit: contain; }
+.modal__box > img { height: auto; }
+[data-render="photos"] .shot a, .gallery--home .shot a { aspect-ratio: 3 / 4; }
+.post figure img { width: auto; max-width: 100%; max-height: 640px; height: auto; margin-inline: auto; }
+.info-list a, .footer__list a { overflow-wrap: anywhere; }
+
+/* ---------- mobil ---------- */
+@media (max-width: 700px) {
+  /* ates icerigi kapatmasin: kucult ve soluklastir */
+  #campfire, html.journey #campfire { opacity: .28; }
+  [data-render="photos"] .gallery, .gallery--home { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .chip--btn, .copy-btn, .lang-switch button { min-height: 40px; }
+  .footer__list a { display: inline-block; padding-block: 6px; }
+  .spot:nth-child(even) .spot__media { order: 0; }
+  .deck.is-dealt { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .modal { width: calc(100vw - 16px); max-height: calc(100svh - 16px); }
+  .modal__close { position: sticky; top: 8px; z-index: 2; background: var(--bg); }
+  input, select, textarea { font-size: 16px; }   /* iOS odaklanma yakinlastirmasini onler */
+}

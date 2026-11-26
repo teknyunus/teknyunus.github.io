@@ -1,0 +1,18 @@
+# Yunus Tekin
+
+> Oyun geliştirme, web tasarım, otomasyon ve grafik animasyon üzerine kişisel portfolyo sitesi (Türkçe ve İngilizce).
+
+## Sayfalar
+
+- [Ana Sayfa](https://teknyunus.github.io/index.html): Kişisel portfolyo sitesi.
+- [Hakkımda](https://teknyunus.github.io/hakkimda.html): Özgeçmiş, ders programı, yetenekler, diller ve ilgi alanları.
+- [Projeler](https://teknyunus.github.io/projeler.html): Grafik Animasyon 1 çalışmaları ve oyun, web, otomasyon projeleri.
+- [Blog](https://teknyunus.github.io/blog.html): HTML, CSS ve Git gibi bilişim konularında yazılar.
+- [Galeri](https://teknyunus.github.io/galeri.html): Oyun ve prototip görselleri ile fotoğraf galerisi.
+- [İletişim](https://teknyunus.github.io/iletisim.html): İletişim formu, e-posta, telefon, adres ve sosyal medya bağlantıları.
+
+## Blog yazıları
+
+- [Anlamsal HTML neden önemli?](https://teknyunus.github.io/post.html?slug=anlamsal-html): Doğru etiketlerin erişilebilirliğe ve aramaya etkisi.
+- [CSS değişkenleriyle koyu ve açık tema](https://teknyunus.github.io/post.html?slug=css-degiskenleriyle-tema): Renkleri tek yerden yöneterek iki tema kurmak.
+- [Smart Object ile tahribatsız düzenleme](https://teknyunus.github.io/post.html?slug=smart-object): Bir kez değiştir, bütün kopyalar güncellensin.
